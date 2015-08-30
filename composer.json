@@ -1,0 +1,23 @@
+{
+    "name": "vuxx/yii2-jplayer",
+    "description": "yi2-jplayer-widget",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "vuxx",
+            "email": "xiaodayy@gamil.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/circleplayer": "*",
+        "bower-asset/jplayer": "2.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "vuxx\\jplayer\\": ""
+        }
+    }
+}
